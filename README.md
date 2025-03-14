@@ -1,2 +1,2 @@
 # Guara
-Guará é um launcher para os jogos mobile do NinoEdu. 
+Guará é um launcher para jogos mobile.
