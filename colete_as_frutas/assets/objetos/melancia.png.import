@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://gm2tgr7ic0yf"
-path="res://.godot/imported/inicio.png-dac2bb8613ddaf9c5e3fec7b3e636236.ctex"
+uid="uid://de28wmxdms3p6"
+path="res://.godot/imported/melancia.png-1e4a9fad9a81f497f2ec60017c75687a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/fundos_telas/inicio.png"
-dest_files=["res://.godot/imported/inicio.png-dac2bb8613ddaf9c5e3fec7b3e636236.ctex"]
+source_file="res://colete_as_frutas/assets/objetos/melancia.png"
+dest_files=["res://.godot/imported/melancia.png-1e4a9fad9a81f497f2ec60017c75687a.ctex"]
 
 [params]
 

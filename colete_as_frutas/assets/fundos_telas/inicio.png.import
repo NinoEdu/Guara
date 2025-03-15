@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://gm2tgr7ic0yf"
-path="res://.godot/imported/inicio.png-dac2bb8613ddaf9c5e3fec7b3e636236.ctex"
+uid="uid://bwlko811ja0xa"
+path="res://.godot/imported/inicio.png-e5b1ed7ef2c713ef56e7dc1a99c1679b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/fundos_telas/inicio.png"
-dest_files=["res://.godot/imported/inicio.png-dac2bb8613ddaf9c5e3fec7b3e636236.ctex"]
+source_file="res://colete_as_frutas/assets/fundos_telas/inicio.png"
+dest_files=["res://.godot/imported/inicio.png-e5b1ed7ef2c713ef56e7dc1a99c1679b.ctex"]
 
 [params]
 
