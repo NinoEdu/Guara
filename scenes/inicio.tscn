@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://vekwbmagbk6g"]
+[gd_scene load_steps=25 format=3 uid="uid://vekwbmagbk6g"]
 
 [ext_resource type="Script" path="res://inicio.gd" id="1_xo1i1"]
 [ext_resource type="Texture2D" uid="uid://gm2tgr7ic0yf" path="res://assets/fundos_telas/inicio.png" id="2_w272u"]
@@ -49,10 +49,38 @@ texture = ExtResource("4_3ckxd")
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_usi4d"]
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_twnyj"]
+texture = ExtResource("5_ti20a")
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0225w"]
+texture = ExtResource("5_ti20a")
+expand_margin_left = 4.0
+expand_margin_top = 4.0
+expand_margin_right = 4.0
+expand_margin_bottom = 4.0
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kr854"]
 texture = ExtResource("5_ti20a")
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_v4j61"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_pi5ho"]
+texture = ExtResource("6_03kxk")
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7tgsm"]
+texture = ExtResource("6_03kxk")
+expand_margin_left = 4.0
+expand_margin_top = 4.0
+expand_margin_right = 4.0
+expand_margin_bottom = 4.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gpl3s"]
 texture = ExtResource("6_03kxk")
@@ -91,6 +119,8 @@ offset_top = 540.0
 offset_right = 1304.0
 offset_bottom = 790.0
 theme_override_styles/focus = SubResource("StyleBoxEmpty_usi4d")
+theme_override_styles/hover = SubResource("StyleBoxTexture_twnyj")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_0225w")
 theme_override_styles/normal = SubResource("StyleBoxTexture_kr854")
 
 [node name="botao_conectando_silabas" type="Button" parent="."]
@@ -99,6 +129,8 @@ offset_top = 540.0
 offset_right = 1791.0
 offset_bottom = 826.0
 theme_override_styles/focus = SubResource("StyleBoxEmpty_v4j61")
+theme_override_styles/hover = SubResource("StyleBoxTexture_pi5ho")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_7tgsm")
 theme_override_styles/normal = SubResource("StyleBoxTexture_gpl3s")
 
 [node name="acao_usuario" type="AudioStreamPlayer" parent="."]
@@ -110,4 +142,5 @@ volume_db = -15.928
 autoplay = true
 
 [connection signal="pressed" from="botao_colete_as_frutas" to="." method="_on_botao_colete_as_frutas_pressed"]
+[connection signal="pressed" from="botao_ampliando" to="." method="_on_botao_ampliando_pressed"]
 [connection signal="pressed" from="botao_acerte_o_formato" to="." method="_on_botao_acerte_o_formato_pressed"]

@@ -15,6 +15,11 @@ func _on_botao_colete_as_frutas_pressed() -> void:
 	await get_tree().create_timer(0.15).timeout
 	get_tree().change_scene_to_file("res://colete_as_frutas/scenes/start_game.tscn")
 
+func _on_botao_ampliando_pressed() -> void:
+	$acao_usuario.play()
+	await get_tree().create_timer(0.15).timeout
+	get_tree().change_scene_to_file("res://ampliando/scenes/Start_screen.tscn")
+
 func _on_botao_acerte_o_formato_pressed() -> void:
 	$acao_usuario.play()
 	await get_tree().create_timer(0.15).timeout
