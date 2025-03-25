@@ -2,20 +2,18 @@
 
 
 
-> Guará é um launcher gratúito de jogos educativos focados no desenvolvimento da coordenação motora.
+> Guará é um launcher gratuito de jogos educativos focados no desenvolvimento da coordenação motora fina.
 
 ---
 ## ❓ Sobre
 
-O Guará foi feito para jogar através do celular e possui 4 jogos:
+O Guará é destinado a dispositivos móveis e possui 4 jogos:
 * Colete as frutas
 * Ampliando
 * Acerte o formato
 * Conectando sílabas
 
-Os 4 jogos são baseados nos jogos criados por [Lucas Chaves Generoso](https://github.com/olucasz) como projeto de TCC.
-
-O Guará é totalmente gratúito e os assets utilizados nos jogos são [creative commons](https://creativecommons.org/). Qualquer pessoa pode criar sua própria versão do Guará e distribuí-la como bem desejar. Para mais informações, [leia a licença](LICENSE).
+O Guará é totalmente gratuito e os assets utilizados nos jogos são [creative commons](https://creativecommons.org/). Qualquer pessoa pode criar sua própria versão do Guará e distribuí-la como bem desejar. Para mais informações, [leia a licença](LICENSE).
 
 
 ## 📸 Capturas de Tela
@@ -30,7 +28,7 @@ O Guará é totalmente gratúito e os assets utilizados nos jogos são [creative
 
 | ![](https://i.imgur.com/WtqBBIk.png) | 
 |:--:| 
-| *Tela do jogo Amplicando* |
+| *Tela do jogo Ampliando* |
 
 | ![](https://i.imgur.com/7V0uCNj.png) | 
 |:--:| 
@@ -52,9 +50,9 @@ O Guará é totalmente gratúito e os assets utilizados nos jogos são [creative
 
 ## 🎮 Como instalar o Guará
 
-Embora o Guará possa ser emulado, o launcher foi criado para ser utilizado em dispositivos android nativos pois os jogos fazem uso do touch ou do giroscópio.
+Embora o Guará possa ser emulado, o launcher foi criado para ser utilizado nativamente em dispositivos android.
 
-Para instalar o Guará em seu dispositivo, siga os seguintes passos:
+Para instalar o Guará em seu dispositivo siga os seguintes passos:
 
 1. **Acesse o Repositório do Guará em seu celular ou tablet**
 
@@ -86,7 +84,7 @@ Para instalar o Guará em seu dispositivo, siga os seguintes passos:
 git clone https://github.com/NinoEdu/Guara.git
 ```
 
-2. Instale os requisitos alguns requisitos:
+2. Instale os seguintes requisitos:
 
 - [Android studio](https://developer.android.com/studio?hl=pt-br)
 - [Java JDK 24](https://www.oracle.com/java/technologies/downloads/)
@@ -123,5 +121,5 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para m
 
 Caso tenha dúvidas ou sugestões, entre em contato:
 
-- ✉️ Email: [email@example.com](mailto\:gabriel.almeida@discente.uenp.edu.br)
+- ✉️ Email: [gabriel.almeida@discente.uenp.edu.br](mailto\:gabriel.almeida@discente.uenp.edu.br)
 
